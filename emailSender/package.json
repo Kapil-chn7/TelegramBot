@@ -1,0 +1,25 @@
+{
+  "name": "emailsender",
+  "version": "1.0.0",
+  "description": "Automatically sends email on my behalf",
+  "license": "ISC",
+  "author": "Kapil Chauhan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@google-cloud/vision": "^5.3.4",
+    "@google/generative-ai": "^0.24.1",
+    "@sendgrid/mail": "^8.1.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "g": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.11"
+  }
+}
